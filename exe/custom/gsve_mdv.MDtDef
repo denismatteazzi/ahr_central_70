@@ -13229,6 +13229,17 @@ rd_var=[
 'w_CODVAV
 ]
 repeated=True
+technote="w_MVFLCASC
+w_MVFLRISE
+w_MVFLORDI
+w_MVFLIMPE
+w_MVFLULPV
+w_MVFLULPV
+w_MVFLULCA
+w_MVFLULCA
+w_MVFLULCA
+w_MVFLULPV
+°--°
 txt_help='Codice magazzino (usato anche per calcolare saldi articolo)
 uid='VHBQMJJSMQ
 video_len=6
@@ -13245,16 +13256,16 @@ wr_field=[
 'SLVALUPV
 ]
 wr_op=[
-'w_MVFLCASC
-'w_MVFLRISE
-'w_MVFLORDI
-'w_MVFLIMPE
-'w_MVFLULPV
-'w_MVFLULPV
-'w_MVFLULCA
-'w_MVFLULCA
-'w_MVFLULCA
-'w_MVFLULPV
+'=
+'=
+'=
+'=
+'=
+'=
+'=
+'=
+'=
+'=
 ]
 wr_var=[
 'w_MVQTAUM1
@@ -18452,6 +18463,9 @@ rd_var=[
 'w_MVLOTMAG
 ]
 repeated=True
+technote="w_MVFLCASC
+w_MVFLRISE
+°--°
 txt_help='Codice magazzino (usato anche per calcolare saldi articolo)
 uid='UMWGOFJXOU
 video_len=6
@@ -18460,8 +18474,8 @@ wr_field=[
 'SUQTRPER
 ]
 wr_op=[
-'w_MVFLCASC
-'w_MVFLRISE
+'=
+'=
 ]
 wr_var=[
 'w_MVQTAUM1
@@ -29784,7 +29798,7 @@ cndautonum=[
 ]
 comment='Documenti - vendite
 date_creat=#2000-03-08
-date_rev=#2013-02-26
+date_rev=#2016-04-21
 delete_cnd='GSMA_BAE(this,'G')
 delete_err='Operazione annullata
 dic_name='PLAN
@@ -29805,7 +29819,7 @@ key_expr=[
 'w_MVCODCON
 ]
 master_name='DOC_MAST
-modcnt=2824
+modcnt=2826
 os='[111] [VRS_1999]
 page_row=9
 pagedisable_cond=[
